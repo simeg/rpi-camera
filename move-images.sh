@@ -1,3 +1,5 @@
 #!/bin/bash -e
 
-mv ./images/* ./backup/
+echo 'Backing up images'
+mv -v $PWD/images/* $PWD/backup/
+echo 'Backing up complete'
